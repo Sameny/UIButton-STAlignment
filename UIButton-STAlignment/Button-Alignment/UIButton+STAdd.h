@@ -29,6 +29,14 @@ typedef NS_ENUM(NSUInteger, STContentAlignment) {
 
 @interface UIButton (STAdd)
 
+
+/**
+ 支持UIButton常见排列
+
+ 请在button的frame确定之后调用
+ */
+
+
 - (void)verticalAlignmentWithSpace:(CGFloat)space imageAtTop:(BOOL)imageAtTop;
 - (void)horizontalAlignmentWithSpace:(CGFloat)space imageAtLeft:(BOOL)imageAtLeft;
 
