@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n6h-Wm-EwM">
+                                <rect key="frame" x="30" y="70" width="100" height="80"/>
+                                <color key="backgroundColor" red="0.70196078429999997" green="0.70196078429999997" blue="0.70196078429999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="EBY-AK-bJk"/>
+                                    <constraint firstAttribute="height" constant="80" id="fdN-XT-sqP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Button" image="chat_arraw.png">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U5D-Dc-xG7">
+                                <rect key="frame" x="30" y="200" width="100" height="80"/>
+                                <color key="backgroundColor" red="0.70196078429999997" green="0.70196078429999997" blue="0.70196078429999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="Djk-nO-6Zd"/>
+                                    <constraint firstAttribute="width" constant="100" id="Mhk-W1-7J0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Button" image="chat_arraw.png">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tvM-pj-2YE">
+                                <rect key="frame" x="30" y="330" width="100" height="80"/>
+                                <color key="backgroundColor" red="0.70196078429999997" green="0.70196078429999997" blue="0.70196078429999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="6eq-G7-tux"/>
+                                    <constraint firstAttribute="height" constant="80" id="tdT-bC-9ji"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Button" image="chat_arraw.png">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0To-NJ-Uxc">
+                                <rect key="frame" x="137.5" y="70" width="100" height="80"/>
+                                <color key="backgroundColor" red="0.70196078429999997" green="0.70196078429999997" blue="0.70196078429999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="SpL-A9-CJc"/>
+                                    <constraint firstAttribute="width" constant="100" id="x05-01-QN1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Button" image="chat_arraw.png">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o5g-xt-XD5">
+                                <rect key="frame" x="137.5" y="200" width="100" height="80"/>
+                                <color key="backgroundColor" red="0.70196078429999997" green="0.70196078429999997" blue="0.70196078429999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="MMm-Hd-wmM"/>
+                                    <constraint firstAttribute="height" constant="80" id="xCY-YL-fwX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Button" image="chat_arraw.png">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ON5-iI-1Td">
+                                <rect key="frame" x="137.5" y="330" width="100" height="80"/>
+                                <color key="backgroundColor" red="0.70196078429999997" green="0.70196078429999997" blue="0.70196078429999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="bXD-Fy-f6R"/>
+                                    <constraint firstAttribute="height" constant="80" id="eVD-SK-Jee"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Button" image="chat_arraw.png">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nVo-HD-8ly">
+                                <rect key="frame" x="245" y="70" width="100" height="80"/>
+                                <color key="backgroundColor" red="0.70196078429999997" green="0.70196078429999997" blue="0.70196078429999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="M9c-G8-GVS"/>
+                                    <constraint firstAttribute="width" constant="100" id="Zb3-y2-RV6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Button" image="chat_arraw.png">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ag4-eY-SgI">
+                                <rect key="frame" x="245" y="200" width="100" height="80"/>
+                                <color key="backgroundColor" red="0.70196078429999997" green="0.70196078429999997" blue="0.70196078429999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="L3W-Ek-iiG"/>
+                                    <constraint firstAttribute="height" constant="80" id="OLS-jo-h5f"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Button" image="chat_arraw.png">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tSM-wR-hFe">
+                                <rect key="frame" x="245" y="330" width="100" height="80"/>
+                                <color key="backgroundColor" red="0.70196078429999997" green="0.70196078429999997" blue="0.70196078429999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="BKI-yO-1dj"/>
+                                    <constraint firstAttribute="height" constant="80" id="cFX-EM-8o8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Button" image="chat_arraw.png">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="n6h-Wm-EwM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="82A-58-hgr"/>
+                            <constraint firstItem="0To-NJ-Uxc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CP0-jX-0gr"/>
+                            <constraint firstItem="ON5-iI-1Td" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Eli-33-sIS"/>
+                            <constraint firstItem="o5g-xt-XD5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Frb-vF-3wH"/>
+                            <constraint firstAttribute="trailing" secondItem="nVo-HD-8ly" secondAttribute="trailing" constant="30" id="I34-hu-blY"/>
+                            <constraint firstItem="n6h-Wm-EwM" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="J2U-sZ-MDh"/>
+                            <constraint firstItem="o5g-xt-XD5" firstAttribute="top" secondItem="0To-NJ-Uxc" secondAttribute="bottom" constant="50" id="Ob4-dr-0oP"/>
+                            <constraint firstItem="U5D-Dc-xG7" firstAttribute="trailing" secondItem="n6h-Wm-EwM" secondAttribute="trailing" id="UDb-sc-NCe"/>
+                            <constraint firstItem="tvM-pj-2YE" firstAttribute="trailing" secondItem="U5D-Dc-xG7" secondAttribute="trailing" id="Xza-Im-QeN"/>
+                            <constraint firstItem="U5D-Dc-xG7" firstAttribute="top" secondItem="n6h-Wm-EwM" secondAttribute="bottom" constant="50" id="dbY-Lo-sYN"/>
+                            <constraint firstItem="0To-NJ-Uxc" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="eae-Of-gyc"/>
+                            <constraint firstAttribute="trailing" secondItem="tSM-wR-hFe" secondAttribute="trailing" constant="30" id="fDl-45-c4l"/>
+                            <constraint firstItem="ON5-iI-1Td" firstAttribute="top" secondItem="o5g-xt-XD5" secondAttribute="bottom" constant="50" id="jGj-Jl-ZjS"/>
+                            <constraint firstAttribute="trailing" secondItem="ag4-eY-SgI" secondAttribute="trailing" constant="30" id="l63-vQ-FLp"/>
+                            <constraint firstItem="tvM-pj-2YE" firstAttribute="top" secondItem="U5D-Dc-xG7" secondAttribute="bottom" constant="50" id="mcU-Ck-1A6"/>
+                            <constraint firstItem="nVo-HD-8ly" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="mrs-gV-0Sf"/>
+                            <constraint firstItem="ag4-eY-SgI" firstAttribute="top" secondItem="nVo-HD-8ly" secondAttribute="bottom" constant="50" id="mx6-BO-Zyw"/>
+                            <constraint firstItem="0To-NJ-Uxc" firstAttribute="centerY" secondItem="n6h-Wm-EwM" secondAttribute="centerY" id="o9L-T0-SyE"/>
+                            <constraint firstItem="tSM-wR-hFe" firstAttribute="top" secondItem="ag4-eY-SgI" secondAttribute="bottom" constant="50" id="uy3-md-7w6"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="button0" destination="n6h-Wm-EwM" id="qAB-BH-OJL"/>
+                        <outlet property="button1" destination="0To-NJ-Uxc" id="1t1-Fj-18X"/>
+                        <outlet property="button2" destination="nVo-HD-8ly" id="YIE-8y-3D4"/>
+                        <outlet property="button3" destination="U5D-Dc-xG7" id="L3E-Jj-GkF"/>
+                        <outlet property="button4" destination="o5g-xt-XD5" id="AFy-PS-fpU"/>
+                        <outlet property="button5" destination="ag4-eY-SgI" id="6iO-Rt-1MJ"/>
+                        <outlet property="button6" destination="tvM-pj-2YE" id="haS-Wl-TJL"/>
+                        <outlet property="button7" destination="ON5-iI-1Td" id="OBp-sx-zoq"/>
+                        <outlet property="button8" destination="tSM-wR-hFe" id="2bg-l8-7OY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="141.59999999999999" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="chat_arraw.png" width="7" height="10"/>
+    </resources>
+</document>
